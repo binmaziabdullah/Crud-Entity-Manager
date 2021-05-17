@@ -14,7 +14,6 @@ import java.util.List;
 public class EmployeeService {
 
     @Autowired
-    @PersistenceContext
     private EntityManager entityManager;
 
     public Employee AddEmployee(Employee employee){
